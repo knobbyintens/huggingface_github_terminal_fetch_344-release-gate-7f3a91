@@ -1,0 +1,103 @@
+{
+  "batch_id": "B-2026-11",
+  "batch_name": "Q4 public model and dataset release intake",
+  "requested_by": "Applied AI Platform",
+  "assets": [
+    {
+      "asset_id": "AS-3301",
+      "repo_id": "rajpurkar/squad",
+      "repo_type": "dataset",
+      "release_target": "public",
+      "owner_team": "QA & Evaluation",
+      "notes": "Held-out question answering evaluation set."
+    },
+    {
+      "asset_id": "AS-3302",
+      "repo_id": "google-bert/bert-base-uncased",
+      "repo_type": "model",
+      "release_target": "public",
+      "owner_team": "NLP Platform",
+      "notes": "Baseline encoder for the retrieval service."
+    },
+    {
+      "asset_id": "AS-3303",
+      "repo_id": "tatsu-lab/alpaca",
+      "repo_type": "dataset",
+      "release_target": "public",
+      "owner_team": "Instruction Tuning",
+      "notes": "Instruction-following training set."
+    },
+    {
+      "asset_id": "AS-3304",
+      "repo_id": "HuggingFaceH4/ultrachat_200k",
+      "repo_type": "dataset",
+      "release_target": "public",
+      "owner_team": "Assistant Team",
+      "notes": "Multi-turn chat fine-tuning corpus."
+    },
+    {
+      "asset_id": "AS-3305",
+      "repo_id": "bookcorpus/bookcorpus",
+      "repo_type": "dataset",
+      "release_target": "internal",
+      "owner_team": "Language Modelling",
+      "notes": "Small-scale pretraining corpus for an internal baseline."
+    },
+    {
+      "asset_id": "AS-3306",
+      "repo_id": "SetFit/sst2",
+      "repo_type": "dataset",
+      "release_target": "internal",
+      "owner_team": "Classification",
+      "notes": "Sentiment fine-tuning set for an internal classifier."
+    },
+    {
+      "asset_id": "AS-3307",
+      "repo_id": "meta-llama/Llama-3.1-8B",
+      "repo_type": "model",
+      "release_target": "public",
+      "owner_team": "LLM Platform",
+      "notes": "Assistant backbone candidate for a public demo."
+    },
+    {
+      "asset_id": "AS-3308",
+      "repo_id": "bigcode/starcoder2-3b",
+      "repo_type": "model",
+      "release_target": "internal",
+      "owner_team": "Developer Tools",
+      "notes": "Code completion model for internal tooling."
+    },
+    {
+      "asset_id": "AS-3309",
+      "repo_id": "mistralai/Mistral-7B-v0.1",
+      "repo_type": "model",
+      "release_target": "internal",
+      "owner_team": "LLM Platform",
+      "notes": "Internal evaluation baseline."
+    },
+    {
+      "asset_id": "AS-3310",
+      "repo_id": "facebook/opt-125m",
+      "repo_type": "model",
+      "release_target": "internal",
+      "owner_team": "Research Prototypes",
+      "notes": "Lightweight research baseline."
+    },
+    {
+      "asset_id": "AS-3311",
+      "repo_id": "openai-community/gpt2",
+      "repo_type": "model",
+      "release_target": "internal",
+      "owner_team": "Content Tools",
+      "notes": "Text generation prototype."
+    },
+    {
+      "asset_id": "AS-3312",
+      "repo_id": "allenai/WildChat-1M",
+      "repo_type": "dataset",
+      "release_target": "public",
+      "owner_team": "Assistant Team",
+      "notes": "Conversation dataset for public demo fine-tuning."
+    }
+  ]
+}
